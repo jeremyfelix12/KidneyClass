@@ -33,8 +33,8 @@ def preprocess_image(image, target_size):
     return image_array
 
 #URL model
-MODEL_URL = "https://raw.githubusercontent.com/jeremyfelix12/KidneyClassify/main/model.h5"
-MODEL_PATH = "model.h5"
+MODEL_URL = "https://raw.githubusercontent.com/jeremyfelix12/KidneyClassify/main/modelfinal.h5"
+MODEL_PATH = "modelfinal.h5"
 
 #download model
 if not os.path.exists(MODEL_PATH):
